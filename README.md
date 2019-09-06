@@ -1,4 +1,5 @@
 # 泰链 NodeJS 开发者库
+该库内容会不实时更新
 ## 安装
 ```bash
 $ npm i tic-lib
