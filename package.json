@@ -1,0 +1,36 @@
+{
+  "name": "tic-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tic",
+    "egg",
+    "extends",
+    "util",
+    "modules",
+    "base",
+    "class"
+  ],
+  "files": [],
+  "dependencies": {
+    "egg": "^2.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-egg": "^7.5.1"
+  },
+  "author": "iamljw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamljw/tic-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamljw/tic-modules/issues"
+  },
+  "homepage": "https://github.com/iamljw/tic-modules#readme"
+}

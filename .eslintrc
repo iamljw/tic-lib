@@ -1,0 +1,7 @@
+{
+    "extends": "eslint-config-egg",
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "array-bracket-spacing":["error", "never"],
+    }
+}
