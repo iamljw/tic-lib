@@ -1,2 +1,2 @@
-# tic-modules
-tic-modules
+# tic-lib
+tic-lib

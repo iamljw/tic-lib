@@ -1,5 +1,5 @@
 {
-  "name": "tic-modules",
+  "name": "tic-lib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,7 @@
     "extends",
     "util",
     "modules",
-    "base",
-    "class"
+    "lib"
   ],
   "files": [
     "lib"
@@ -31,10 +30,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamljw/tic-modules.git"
+    "url": "git+https://github.com/iamljw/tic-lib.git"
   },
   "bugs": {
-    "url": "https://github.com/iamljw/tic-modules/issues"
+    "url": "https://github.com/iamljw/tic-lib/issues"
   },
-  "homepage": "https://github.com/iamljw/tic-modules#readme"
+  "homepage": "https://github.com/iamljw/tic-lib#readme"
 }
