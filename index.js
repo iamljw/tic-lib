@@ -7,7 +7,7 @@ const context = require('./lib/base-context-class');
 const dateFormat = require('./lib/date-format');
 
 module.exports = {
-    errors,
+    ...errors,
     moment,
     sleep,
     context,
