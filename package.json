@@ -1,7 +1,7 @@
 {
   "name": "tic-lib",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "泰链 NodeJS 开发者库",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

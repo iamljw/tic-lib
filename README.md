@@ -61,15 +61,16 @@ config.sequelize = {
 const { InsufficientBalanceError } = require('tic-lib').clientError;
 
 if (gt(amount, balance)) {
-    throw new InsufficientBalanceError('默认内容：余额不足，可自行定义，但需和类型相符。');
+    throw new InsufficientBalanceError();
 }
 ```
+*所有错误类都有默认值，具体参考以下内容*  
 已提供以下错误类引用：
 ### 1xxx 客户端错误
 - 1000: `ClientError` 客户端错误
 - 1001: `ParameterError` 参数错误
 - 1002: `UserNotFoundError` 用户不存在
-- 1003: `InvalidPasswordError` 密码校验不通过 ()
+- 1003: `InvalidPasswordError` 密码校验不通过
 - 1004: `LogonExpirationError` 登录过期
 - 1005: `InsufficientBalanceError` 余额不足
 - 1006: `InvalidRequestError` 无效的请求
