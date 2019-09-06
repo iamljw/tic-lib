@@ -15,9 +15,13 @@
     "base",
     "class"
   ],
-  "files": [],
+  "files": [
+    "lib"
+  ],
   "dependencies": {
-    "egg": "^2.23.0"
+    "bignumber.js": "^9.0.0",
+    "egg": "^2.23.0",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0",
