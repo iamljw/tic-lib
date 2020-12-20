@@ -1,6 +1,6 @@
 {
   "name": "tic-lib",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "泰链 NodeJS 开发者库",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
   "dependencies": {
     "bignumber.js": "^9.0.0",
     "egg": "^2.23.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.32"
   },
   "devDependencies": {
     "eslint": "^6.3.0",
